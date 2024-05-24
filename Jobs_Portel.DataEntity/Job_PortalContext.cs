@@ -39,10 +39,11 @@ namespace Jobs_Portel.DataEntity
                     .ValueGeneratedNever()
                     .HasColumnName("employer_id");
 
-                entity.Property(e => e.CompanyLogo)
+            /*    entity.Property(e => e.CompanyLogo)
                     .HasMaxLength(255)
                     .IsUnicode(false)
                     .HasColumnName("company_logo");
+            */
 
                 entity.Property(e => e.CompanyName)
                     .HasMaxLength(255)

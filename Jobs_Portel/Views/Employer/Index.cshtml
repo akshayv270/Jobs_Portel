@@ -1,0 +1,15 @@
+﻿@model List<EmployerViewModel>
+
+@foreach (var item in Model)
+{   
+    <div>
+        <table>
+            <thead>
+                <th>CompanyName</th>
+              
+            </thead>
+            <td>@item.CompanyName</td>
+        </table>
+        
+        </div>
+}

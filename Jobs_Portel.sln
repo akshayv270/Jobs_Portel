@@ -3,15 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.32014.148
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jobs_Portel", "Jobs_Portel\Jobs_Portel.csproj", "{8EE87172-96AF-4B9B-A25C-001638C92B11}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Jobs_Portel", "Jobs_Portel\Jobs_Portel.csproj", "{8EE87172-96AF-4B9B-A25C-001638C92B11}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jobs_Portel.DataEntity", "Jobs_Portel.DataEntity\Jobs_Portel.DataEntity.csproj", "{0FC2DBD9-8743-428B-981A-471DD7DF1AE8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Jobs_Portel.DataEntity", "Jobs_Portel.DataEntity\Jobs_Portel.DataEntity.csproj", "{0FC2DBD9-8743-428B-981A-471DD7DF1AE8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jobs_Portel.BussinessServices", "Jobs_Portel.BussinessServices\Jobs_Portel.BussinessServices.csproj", "{D7C57E17-BF27-4732-A0F1-5754AA669091}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Jobs_Portel.BussinessServices", "Jobs_Portel.BussinessServices\Jobs_Portel.BussinessServices.csproj", "{D7C57E17-BF27-4732-A0F1-5754AA669091}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jobs_Portel.BussinessEntity", "Jobs_Portel.BussinessEntity\Jobs_Portel.BussinessEntity.csproj", "{E7AAC451-331F-4C03-B150-93C033876937}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Jobs_Portel.BussinessEntity", "Jobs_Portel.BussinessEntity\Jobs_Portel.BussinessEntity.csproj", "{E7AAC451-331F-4C03-B150-93C033876937}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jobs_Portel.Repository", "Jobs_Portel.Repository\Jobs_Portel.Repository.csproj", "{36B0886B-A774-42B2-8B11-0F9EF012D880}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Jobs_Portel.Repository", "Jobs_Portel.Repository\Jobs_Portel.Repository.csproj", "{36B0886B-A774-42B2-8B11-0F9EF012D880}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jobs_Portel.Common", "Jobs_Portel.Common\Jobs_Portel.Common.csproj", "{7F2FC012-F8EA-45DD-BDB4-E25771BFD1A8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{36B0886B-A774-42B2-8B11-0F9EF012D880}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{36B0886B-A774-42B2-8B11-0F9EF012D880}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{36B0886B-A774-42B2-8B11-0F9EF012D880}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F2FC012-F8EA-45DD-BDB4-E25771BFD1A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F2FC012-F8EA-45DD-BDB4-E25771BFD1A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F2FC012-F8EA-45DD-BDB4-E25771BFD1A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F2FC012-F8EA-45DD-BDB4-E25771BFD1A8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
